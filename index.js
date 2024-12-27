@@ -47,7 +47,7 @@ run().catch(console.dir);
 
 // check check check
 app.get("/", (req, res) => {
-  res.send("sodium cafe server is running.");
+  res.send("mega mart server is running.");
 });
 app.listen(port, () => {
   console.log(`Server is runnung on port: ${port}`);
